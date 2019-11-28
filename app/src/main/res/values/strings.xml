@@ -1,0 +1,7 @@
+<resources>
+
+    <string name="app_name">KotlinMVVM</string>
+
+    <string name="filter_view_kotlin_mvvm">Added deep linking</string>
+
+</resources>
