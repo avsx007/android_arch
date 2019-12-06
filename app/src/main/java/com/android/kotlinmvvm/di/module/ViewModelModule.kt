@@ -15,13 +15,11 @@ import javax.inject.Singleton
 abstract class ViewModelModule {
     @Binds
     @IntoMap
-    @Singleton
     @ViewModelKey(MainViewModel::class)
     abstract fun bindMainViewModel(viewModel: MainViewModel): ViewModel
 
     @Binds
     @IntoMap
-    @Singleton
     @ViewModelKey(UserProfileViewModel::class)
     abstract fun bindUserProfileViewModel(viewModel: UserProfileViewModel): ViewModel
 

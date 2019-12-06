@@ -20,15 +20,7 @@ class ApplicationModule {
 
     @Module
     companion object {
-        const val APPLICATION_CONTEXT = "application.context"
         const val BASE_URL = "http://0.0.0.0/DataService.svc/";
-
-        @JvmStatic
-        @Singleton
-        @Provides
-        fun provideContext(application: Application): Context {
-            return application
-        }
 
         @JvmStatic
         @Singleton
